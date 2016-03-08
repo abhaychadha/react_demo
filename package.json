@@ -1,0 +1,29 @@
+{
+  "name": "react_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhaychadha/react_demo.git"
+  },
+  "author": "abhaychadha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhaychadha/react_demo/issues"
+  },
+  "homepage": "https://github.com/abhaychadha/react_demo#readme",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "concat": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-open": "^1.0.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
