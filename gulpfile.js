@@ -36,7 +36,7 @@ gulp.task('connect', function() {
 
 gulp.task('open', ['connect'], function() {
 	gulp.src('dist/index.html')
-		.pipe(open({ uri: config.devBaseUrl + ':' + config.port + '/'}));
+		.pipe(open({ uri: config.devBaseUrl + ':' + config.port + '/index.html'}));
 });
 
 gulp.task('html', function() {
